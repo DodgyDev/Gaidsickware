@@ -2,7 +2,7 @@
 //  main.m
 //  Gaidsickware
 //
-//  Created by Scot Curry on 7/22/14.
+//  Created by Scot Curry on 6/16/14.
 //  Copyright (c) 2014 Scot Curry. All rights reserved.
 //
 

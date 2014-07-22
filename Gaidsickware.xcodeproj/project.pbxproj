@@ -7,152 +7,221 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB56879F197EAD8F00425750 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB56879E197EAD8F00425750 /* Foundation.framework */; };
-		AB5687A1197EAD8F00425750 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5687A0197EAD8F00425750 /* CoreGraphics.framework */; };
-		AB5687A3197EAD8F00425750 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5687A2197EAD8F00425750 /* UIKit.framework */; };
-		AB5687A9197EAD8F00425750 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB5687A7197EAD8F00425750 /* InfoPlist.strings */; };
-		AB5687AB197EAD8F00425750 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5687AA197EAD8F00425750 /* main.m */; };
-		AB5687AF197EAD8F00425750 /* currywareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5687AE197EAD8F00425750 /* currywareAppDelegate.m */; };
-		AB5687B2197EAD8F00425750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5687B0197EAD8F00425750 /* Main.storyboard */; };
-		AB5687B5197EAD8F00425750 /* currywareFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5687B4197EAD8F00425750 /* currywareFirstViewController.m */; };
-		AB5687B8197EAD8F00425750 /* currywareSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5687B7197EAD8F00425750 /* currywareSecondViewController.m */; };
-		AB5687BA197EAD8F00425750 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5687B9197EAD8F00425750 /* Images.xcassets */; };
-		AB5687C1197EAD8F00425750 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5687C0197EAD8F00425750 /* XCTest.framework */; };
-		AB5687C2197EAD8F00425750 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB56879E197EAD8F00425750 /* Foundation.framework */; };
-		AB5687C3197EAD8F00425750 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5687A2197EAD8F00425750 /* UIKit.framework */; };
-		AB5687CB197EAD8F00425750 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB5687C9197EAD8F00425750 /* InfoPlist.strings */; };
-		AB5687CD197EAD9000425750 /* GaidsickwareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5687CC197EAD9000425750 /* GaidsickwareTests.m */; };
+		AB3B70951958875B002086D4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3B70941958875B002086D4 /* Reachability.m */; };
+		ABBDE7FC194F4DF2004E8FB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBDE7FB194F4DF2004E8FB9 /* Foundation.framework */; };
+		ABBDE7FE194F4DF2004E8FB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBDE7FD194F4DF2004E8FB9 /* CoreGraphics.framework */; };
+		ABBDE800194F4DF2004E8FB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBDE7FF194F4DF2004E8FB9 /* UIKit.framework */; };
+		ABBDE806194F4DF2004E8FB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABBDE804194F4DF2004E8FB9 /* InfoPlist.strings */; };
+		ABBDE808194F4DF2004E8FB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBDE807194F4DF2004E8FB9 /* main.m */; };
+		ABBDE80C194F4DF2004E8FB9 /* currywareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBDE80B194F4DF2004E8FB9 /* currywareAppDelegate.m */; };
+		ABBDE80F194F4DF2004E8FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBDE80D194F4DF2004E8FB9 /* Main.storyboard */; };
+		ABBDE812194F4DF2004E8FB9 /* currywareFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBDE811194F4DF2004E8FB9 /* currywareFirstViewController.m */; };
+		ABBDE815194F4DF2004E8FB9 /* currywareSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBDE814194F4DF2004E8FB9 /* currywareSecondViewController.m */; };
+		ABBDE817194F4DF2004E8FB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBDE816194F4DF2004E8FB9 /* Images.xcassets */; };
+		ABBDE81E194F4DF2004E8FB9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBDE81D194F4DF2004E8FB9 /* XCTest.framework */; };
+		ABBDE81F194F4DF2004E8FB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBDE7FB194F4DF2004E8FB9 /* Foundation.framework */; };
+		ABBDE820194F4DF2004E8FB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBDE7FF194F4DF2004E8FB9 /* UIKit.framework */; };
+		ABBDE828194F4DF2004E8FB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABBDE826194F4DF2004E8FB9 /* InfoPlist.strings */; };
+		ABBDE82A194F4DF2004E8FB9 /* GaidsickwareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBDE829194F4DF2004E8FB9 /* GaidsickwareTests.m */; };
+		ABBF8554194F773A00A2D21F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBF8553194F773A00A2D21F /* CFNetwork.framework */; };
+		ABBF8556194F7AC700A2D21F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBF8555194F7AC700A2D21F /* CoreData.framework */; };
+		ABBF8558194F7B1500A2D21F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBF8557194F7B1500A2D21F /* CoreTelephony.framework */; };
+		ABBF855A194F7B2900A2D21F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBF8559194F7B2900A2D21F /* CoreText.framework */; };
+		ABBF855C194F7B6400A2D21F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBF855B194F7B6400A2D21F /* libsqlite3.dylib */; };
+		ABBF855E194F7B8100A2D21F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBF855D194F7B8100A2D21F /* libz.dylib */; };
+		ABBF8560194F7B9900A2D21F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBF855F194F7B9800A2D21F /* MediaPlayer.framework */; };
+		ABBF8562194F7BB600A2D21F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBF8561194F7BB600A2D21F /* MessageUI.framework */; };
+		ABBF8564194F7BF000A2D21F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBF8563194F7BF000A2D21F /* MobileCoreServices.framework */; };
+		ABBF8566194F7C0300A2D21F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBF8565194F7C0300A2D21F /* QuartzCore.framework */; };
+		ABBF8568194F7C2900A2D21F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBF8567194F7C2900A2D21F /* Security.framework */; };
+		ABBF856A194F7C3800A2D21F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBF8569194F7C3800A2D21F /* SystemConfiguration.framework */; };
+		ABBF856C194F7CC900A2D21F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBF856B194F7CC900A2D21F /* CoreFoundation.framework */; };
+		ABBF856E194F7E1E00A2D21F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBF856D194F7E1E00A2D21F /* CoreLocation.framework */; };
+		ABD55821194FCD3100504BB3 /* AWSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD55820194FCD3100504BB3 /* AWSDK.framework */; };
+		ABD55823194FCDF000504BB3 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD55822194FCDF000504BB3 /* libstdc++.6.0.9.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AB5687C4197EAD8F00425750 /* PBXContainerItemProxy */ = {
+		ABBDE821194F4DF2004E8FB9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AB568793197EAD8F00425750 /* Project object */;
+			containerPortal = ABBDE7F0194F4DF2004E8FB9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AB56879A197EAD8F00425750;
+			remoteGlobalIDString = ABBDE7F7194F4DF2004E8FB9;
 			remoteInfo = Gaidsickware;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AB56879B197EAD8F00425750 /* Gaidsickware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gaidsickware.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB56879E197EAD8F00425750 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AB5687A0197EAD8F00425750 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AB5687A2197EAD8F00425750 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		AB5687A6197EAD8F00425750 /* Gaidsickware-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gaidsickware-Info.plist"; sourceTree = "<group>"; };
-		AB5687A8197EAD8F00425750 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AB5687AA197EAD8F00425750 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AB5687AC197EAD8F00425750 /* Gaidsickware-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gaidsickware-Prefix.pch"; sourceTree = "<group>"; };
-		AB5687AD197EAD8F00425750 /* currywareAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = currywareAppDelegate.h; sourceTree = "<group>"; };
-		AB5687AE197EAD8F00425750 /* currywareAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = currywareAppDelegate.m; sourceTree = "<group>"; };
-		AB5687B1197EAD8F00425750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AB5687B3197EAD8F00425750 /* currywareFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = currywareFirstViewController.h; sourceTree = "<group>"; };
-		AB5687B4197EAD8F00425750 /* currywareFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = currywareFirstViewController.m; sourceTree = "<group>"; };
-		AB5687B6197EAD8F00425750 /* currywareSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = currywareSecondViewController.h; sourceTree = "<group>"; };
-		AB5687B7197EAD8F00425750 /* currywareSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = currywareSecondViewController.m; sourceTree = "<group>"; };
-		AB5687B9197EAD8F00425750 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AB5687BF197EAD8F00425750 /* GaidsickwareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaidsickwareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB5687C0197EAD8F00425750 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		AB5687C8197EAD8F00425750 /* GaidsickwareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GaidsickwareTests-Info.plist"; sourceTree = "<group>"; };
-		AB5687CA197EAD8F00425750 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AB5687CC197EAD9000425750 /* GaidsickwareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaidsickwareTests.m; sourceTree = "<group>"; };
+		AB3B70931958875B002086D4 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		AB3B70941958875B002086D4 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		ABBDE7F8194F4DF2004E8FB9 /* Gaidsickware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gaidsickware.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBDE7FB194F4DF2004E8FB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABBDE7FD194F4DF2004E8FB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABBDE7FF194F4DF2004E8FB9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABBDE803194F4DF2004E8FB9 /* Gaidsickware-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gaidsickware-Info.plist"; sourceTree = "<group>"; };
+		ABBDE805194F4DF2004E8FB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABBDE807194F4DF2004E8FB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABBDE809194F4DF2004E8FB9 /* Gaidsickware-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gaidsickware-Prefix.pch"; sourceTree = "<group>"; };
+		ABBDE80A194F4DF2004E8FB9 /* currywareAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = currywareAppDelegate.h; sourceTree = "<group>"; };
+		ABBDE80B194F4DF2004E8FB9 /* currywareAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = currywareAppDelegate.m; sourceTree = "<group>"; };
+		ABBDE80E194F4DF2004E8FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABBDE810194F4DF2004E8FB9 /* currywareFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = currywareFirstViewController.h; sourceTree = "<group>"; };
+		ABBDE811194F4DF2004E8FB9 /* currywareFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = currywareFirstViewController.m; sourceTree = "<group>"; };
+		ABBDE813194F4DF2004E8FB9 /* currywareSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = currywareSecondViewController.h; sourceTree = "<group>"; };
+		ABBDE814194F4DF2004E8FB9 /* currywareSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = currywareSecondViewController.m; sourceTree = "<group>"; };
+		ABBDE816194F4DF2004E8FB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABBDE81C194F4DF2004E8FB9 /* GaidsickwareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaidsickwareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBDE81D194F4DF2004E8FB9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ABBDE825194F4DF2004E8FB9 /* GaidsickwareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GaidsickwareTests-Info.plist"; sourceTree = "<group>"; };
+		ABBDE827194F4DF2004E8FB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABBDE829194F4DF2004E8FB9 /* GaidsickwareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaidsickwareTests.m; sourceTree = "<group>"; };
+		ABBF8553194F773A00A2D21F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		ABBF8555194F7AC700A2D21F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ABBF8557194F7B1500A2D21F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		ABBF8559194F7B2900A2D21F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		ABBF855B194F7B6400A2D21F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		ABBF855D194F7B8100A2D21F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		ABBF855F194F7B9800A2D21F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		ABBF8561194F7BB600A2D21F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		ABBF8563194F7BF000A2D21F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		ABBF8565194F7C0300A2D21F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ABBF8567194F7C2900A2D21F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		ABBF8569194F7C3800A2D21F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		ABBF856B194F7CC900A2D21F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		ABBF856D194F7E1E00A2D21F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ABD55820194FCD3100504BB3 /* AWSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSDK.framework; sourceTree = "<group>"; };
+		ABD55822194FCDF000504BB3 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AB568798197EAD8F00425750 /* Frameworks */ = {
+		ABBDE7F5194F4DF2004E8FB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB5687A1197EAD8F00425750 /* CoreGraphics.framework in Frameworks */,
-				AB5687A3197EAD8F00425750 /* UIKit.framework in Frameworks */,
-				AB56879F197EAD8F00425750 /* Foundation.framework in Frameworks */,
+				ABD55823194FCDF000504BB3 /* libstdc++.6.0.9.dylib in Frameworks */,
+				ABBF856E194F7E1E00A2D21F /* CoreLocation.framework in Frameworks */,
+				ABBF856C194F7CC900A2D21F /* CoreFoundation.framework in Frameworks */,
+				ABBDE800194F4DF2004E8FB9 /* UIKit.framework in Frameworks */,
+				ABBF856A194F7C3800A2D21F /* SystemConfiguration.framework in Frameworks */,
+				ABBF8568194F7C2900A2D21F /* Security.framework in Frameworks */,
+				ABBF8566194F7C0300A2D21F /* QuartzCore.framework in Frameworks */,
+				ABBF8564194F7BF000A2D21F /* MobileCoreServices.framework in Frameworks */,
+				ABBF8562194F7BB600A2D21F /* MessageUI.framework in Frameworks */,
+				ABBF8560194F7B9900A2D21F /* MediaPlayer.framework in Frameworks */,
+				ABD55821194FCD3100504BB3 /* AWSDK.framework in Frameworks */,
+				ABBF855E194F7B8100A2D21F /* libz.dylib in Frameworks */,
+				ABBF855C194F7B6400A2D21F /* libsqlite3.dylib in Frameworks */,
+				ABBF855A194F7B2900A2D21F /* CoreText.framework in Frameworks */,
+				ABBF8558194F7B1500A2D21F /* CoreTelephony.framework in Frameworks */,
+				ABBF8556194F7AC700A2D21F /* CoreData.framework in Frameworks */,
+				ABBF8554194F773A00A2D21F /* CFNetwork.framework in Frameworks */,
+				ABBDE7FE194F4DF2004E8FB9 /* CoreGraphics.framework in Frameworks */,
+				ABBDE7FC194F4DF2004E8FB9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB5687BC197EAD8F00425750 /* Frameworks */ = {
+		ABBDE819194F4DF2004E8FB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB5687C1197EAD8F00425750 /* XCTest.framework in Frameworks */,
-				AB5687C3197EAD8F00425750 /* UIKit.framework in Frameworks */,
-				AB5687C2197EAD8F00425750 /* Foundation.framework in Frameworks */,
+				ABBDE81E194F4DF2004E8FB9 /* XCTest.framework in Frameworks */,
+				ABBDE820194F4DF2004E8FB9 /* UIKit.framework in Frameworks */,
+				ABBDE81F194F4DF2004E8FB9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AB568792197EAD8F00425750 = {
+		ABBDE7EF194F4DF2004E8FB9 = {
 			isa = PBXGroup;
 			children = (
-				AB5687A4197EAD8F00425750 /* Gaidsickware */,
-				AB5687C6197EAD8F00425750 /* GaidsickwareTests */,
-				AB56879D197EAD8F00425750 /* Frameworks */,
-				AB56879C197EAD8F00425750 /* Products */,
+				ABBDE801194F4DF2004E8FB9 /* Gaidsickware */,
+				ABBDE823194F4DF2004E8FB9 /* GaidsickwareTests */,
+				ABBDE7FA194F4DF2004E8FB9 /* Frameworks */,
+				ABBDE7F9194F4DF2004E8FB9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AB56879C197EAD8F00425750 /* Products */ = {
+		ABBDE7F9194F4DF2004E8FB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB56879B197EAD8F00425750 /* Gaidsickware.app */,
-				AB5687BF197EAD8F00425750 /* GaidsickwareTests.xctest */,
+				ABBDE7F8194F4DF2004E8FB9 /* Gaidsickware.app */,
+				ABBDE81C194F4DF2004E8FB9 /* GaidsickwareTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB56879D197EAD8F00425750 /* Frameworks */ = {
+		ABBDE7FA194F4DF2004E8FB9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AB56879E197EAD8F00425750 /* Foundation.framework */,
-				AB5687A0197EAD8F00425750 /* CoreGraphics.framework */,
-				AB5687A2197EAD8F00425750 /* UIKit.framework */,
-				AB5687C0197EAD8F00425750 /* XCTest.framework */,
+				ABD55822194FCDF000504BB3 /* libstdc++.6.0.9.dylib */,
+				ABBF855B194F7B6400A2D21F /* libsqlite3.dylib */,
+				ABBF855D194F7B8100A2D21F /* libz.dylib */,
+				ABD55820194FCD3100504BB3 /* AWSDK.framework */,
+				ABBF856D194F7E1E00A2D21F /* CoreLocation.framework */,
+				ABBF856B194F7CC900A2D21F /* CoreFoundation.framework */,
+				ABBF8569194F7C3800A2D21F /* SystemConfiguration.framework */,
+				ABBF8567194F7C2900A2D21F /* Security.framework */,
+				ABBF8565194F7C0300A2D21F /* QuartzCore.framework */,
+				ABBF8563194F7BF000A2D21F /* MobileCoreServices.framework */,
+				ABBF8561194F7BB600A2D21F /* MessageUI.framework */,
+				ABBF855F194F7B9800A2D21F /* MediaPlayer.framework */,
+				ABBF8559194F7B2900A2D21F /* CoreText.framework */,
+				ABBF8557194F7B1500A2D21F /* CoreTelephony.framework */,
+				ABBF8555194F7AC700A2D21F /* CoreData.framework */,
+				ABBF8553194F773A00A2D21F /* CFNetwork.framework */,
+				ABBDE7FB194F4DF2004E8FB9 /* Foundation.framework */,
+				ABBDE7FD194F4DF2004E8FB9 /* CoreGraphics.framework */,
+				ABBDE7FF194F4DF2004E8FB9 /* UIKit.framework */,
+				ABBDE81D194F4DF2004E8FB9 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AB5687A4197EAD8F00425750 /* Gaidsickware */ = {
+		ABBDE801194F4DF2004E8FB9 /* Gaidsickware */ = {
 			isa = PBXGroup;
 			children = (
-				AB5687AD197EAD8F00425750 /* currywareAppDelegate.h */,
-				AB5687AE197EAD8F00425750 /* currywareAppDelegate.m */,
-				AB5687B0197EAD8F00425750 /* Main.storyboard */,
-				AB5687B3197EAD8F00425750 /* currywareFirstViewController.h */,
-				AB5687B4197EAD8F00425750 /* currywareFirstViewController.m */,
-				AB5687B6197EAD8F00425750 /* currywareSecondViewController.h */,
-				AB5687B7197EAD8F00425750 /* currywareSecondViewController.m */,
-				AB5687B9197EAD8F00425750 /* Images.xcassets */,
-				AB5687A5197EAD8F00425750 /* Supporting Files */,
+				AB3B70931958875B002086D4 /* Reachability.h */,
+				AB3B70941958875B002086D4 /* Reachability.m */,
+				ABBDE80A194F4DF2004E8FB9 /* currywareAppDelegate.h */,
+				ABBDE80B194F4DF2004E8FB9 /* currywareAppDelegate.m */,
+				ABBDE80D194F4DF2004E8FB9 /* Main.storyboard */,
+				ABBDE810194F4DF2004E8FB9 /* currywareFirstViewController.h */,
+				ABBDE811194F4DF2004E8FB9 /* currywareFirstViewController.m */,
+				ABBDE813194F4DF2004E8FB9 /* currywareSecondViewController.h */,
+				ABBDE814194F4DF2004E8FB9 /* currywareSecondViewController.m */,
+				ABBDE816194F4DF2004E8FB9 /* Images.xcassets */,
+				ABBDE802194F4DF2004E8FB9 /* Supporting Files */,
 			);
 			path = Gaidsickware;
 			sourceTree = "<group>";
 		};
-		AB5687A5197EAD8F00425750 /* Supporting Files */ = {
+		ABBDE802194F4DF2004E8FB9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AB5687A6197EAD8F00425750 /* Gaidsickware-Info.plist */,
-				AB5687A7197EAD8F00425750 /* InfoPlist.strings */,
-				AB5687AA197EAD8F00425750 /* main.m */,
-				AB5687AC197EAD8F00425750 /* Gaidsickware-Prefix.pch */,
+				ABBDE803194F4DF2004E8FB9 /* Gaidsickware-Info.plist */,
+				ABBDE804194F4DF2004E8FB9 /* InfoPlist.strings */,
+				ABBDE807194F4DF2004E8FB9 /* main.m */,
+				ABBDE809194F4DF2004E8FB9 /* Gaidsickware-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AB5687C6197EAD8F00425750 /* GaidsickwareTests */ = {
+		ABBDE823194F4DF2004E8FB9 /* GaidsickwareTests */ = {
 			isa = PBXGroup;
 			children = (
-				AB5687CC197EAD9000425750 /* GaidsickwareTests.m */,
-				AB5687C7197EAD8F00425750 /* Supporting Files */,
+				ABBDE829194F4DF2004E8FB9 /* GaidsickwareTests.m */,
+				ABBDE824194F4DF2004E8FB9 /* Supporting Files */,
 			);
 			path = GaidsickwareTests;
 			sourceTree = "<group>";
 		};
-		AB5687C7197EAD8F00425750 /* Supporting Files */ = {
+		ABBDE824194F4DF2004E8FB9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AB5687C8197EAD8F00425750 /* GaidsickwareTests-Info.plist */,
-				AB5687C9197EAD8F00425750 /* InfoPlist.strings */,
+				ABBDE825194F4DF2004E8FB9 /* GaidsickwareTests-Info.plist */,
+				ABBDE826194F4DF2004E8FB9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,13 +229,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB56879A197EAD8F00425750 /* Gaidsickware */ = {
+		ABBDE7F7194F4DF2004E8FB9 /* Gaidsickware */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB5687D0197EAD9000425750 /* Build configuration list for PBXNativeTarget "Gaidsickware" */;
+			buildConfigurationList = ABBDE82D194F4DF2004E8FB9 /* Build configuration list for PBXNativeTarget "Gaidsickware" */;
 			buildPhases = (
-				AB568797197EAD8F00425750 /* Sources */,
-				AB568798197EAD8F00425750 /* Frameworks */,
-				AB568799197EAD8F00425750 /* Resources */,
+				ABBDE7F4194F4DF2004E8FB9 /* Sources */,
+				ABBDE7F5194F4DF2004E8FB9 /* Frameworks */,
+				ABBDE7F6194F4DF2004E8FB9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -174,43 +243,46 @@
 			);
 			name = Gaidsickware;
 			productName = Gaidsickware;
-			productReference = AB56879B197EAD8F00425750 /* Gaidsickware.app */;
+			productReference = ABBDE7F8194F4DF2004E8FB9 /* Gaidsickware.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AB5687BE197EAD8F00425750 /* GaidsickwareTests */ = {
+		ABBDE81B194F4DF2004E8FB9 /* GaidsickwareTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB5687D3197EAD9000425750 /* Build configuration list for PBXNativeTarget "GaidsickwareTests" */;
+			buildConfigurationList = ABBDE830194F4DF2004E8FB9 /* Build configuration list for PBXNativeTarget "GaidsickwareTests" */;
 			buildPhases = (
-				AB5687BB197EAD8F00425750 /* Sources */,
-				AB5687BC197EAD8F00425750 /* Frameworks */,
-				AB5687BD197EAD8F00425750 /* Resources */,
+				ABBDE818194F4DF2004E8FB9 /* Sources */,
+				ABBDE819194F4DF2004E8FB9 /* Frameworks */,
+				ABBDE81A194F4DF2004E8FB9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AB5687C5197EAD8F00425750 /* PBXTargetDependency */,
+				ABBDE822194F4DF2004E8FB9 /* PBXTargetDependency */,
 			);
 			name = GaidsickwareTests;
 			productName = GaidsickwareTests;
-			productReference = AB5687BF197EAD8F00425750 /* GaidsickwareTests.xctest */;
+			productReference = ABBDE81C194F4DF2004E8FB9 /* GaidsickwareTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AB568793197EAD8F00425750 /* Project object */ = {
+		ABBDE7F0194F4DF2004E8FB9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = curryware;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Scot Curry";
 				TargetAttributes = {
-					AB5687BE197EAD8F00425750 = {
-						TestTargetID = AB56879A197EAD8F00425750;
+					ABBDE7F7194F4DF2004E8FB9 = {
+						DevelopmentTeam = 6NB24DN27Q;
+					};
+					ABBDE81B194F4DF2004E8FB9 = {
+						TestTargetID = ABBDE7F7194F4DF2004E8FB9;
 					};
 				};
 			};
-			buildConfigurationList = AB568796197EAD8F00425750 /* Build configuration list for PBXProject "Gaidsickware" */;
+			buildConfigurationList = ABBDE7F3194F4DF2004E8FB9 /* Build configuration list for PBXProject "Gaidsickware" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,89 +290,90 @@
 				en,
 				Base,
 			);
-			mainGroup = AB568792197EAD8F00425750;
-			productRefGroup = AB56879C197EAD8F00425750 /* Products */;
+			mainGroup = ABBDE7EF194F4DF2004E8FB9;
+			productRefGroup = ABBDE7F9194F4DF2004E8FB9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB56879A197EAD8F00425750 /* Gaidsickware */,
-				AB5687BE197EAD8F00425750 /* GaidsickwareTests */,
+				ABBDE7F7194F4DF2004E8FB9 /* Gaidsickware */,
+				ABBDE81B194F4DF2004E8FB9 /* GaidsickwareTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AB568799197EAD8F00425750 /* Resources */ = {
+		ABBDE7F6194F4DF2004E8FB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB5687BA197EAD8F00425750 /* Images.xcassets in Resources */,
-				AB5687A9197EAD8F00425750 /* InfoPlist.strings in Resources */,
-				AB5687B2197EAD8F00425750 /* Main.storyboard in Resources */,
+				ABBDE817194F4DF2004E8FB9 /* Images.xcassets in Resources */,
+				ABBDE806194F4DF2004E8FB9 /* InfoPlist.strings in Resources */,
+				ABBDE80F194F4DF2004E8FB9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB5687BD197EAD8F00425750 /* Resources */ = {
+		ABBDE81A194F4DF2004E8FB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB5687CB197EAD8F00425750 /* InfoPlist.strings in Resources */,
+				ABBDE828194F4DF2004E8FB9 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AB568797197EAD8F00425750 /* Sources */ = {
+		ABBDE7F4194F4DF2004E8FB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB5687AB197EAD8F00425750 /* main.m in Sources */,
-				AB5687B8197EAD8F00425750 /* currywareSecondViewController.m in Sources */,
-				AB5687B5197EAD8F00425750 /* currywareFirstViewController.m in Sources */,
-				AB5687AF197EAD8F00425750 /* currywareAppDelegate.m in Sources */,
+				ABBDE808194F4DF2004E8FB9 /* main.m in Sources */,
+				ABBDE815194F4DF2004E8FB9 /* currywareSecondViewController.m in Sources */,
+				ABBDE812194F4DF2004E8FB9 /* currywareFirstViewController.m in Sources */,
+				ABBDE80C194F4DF2004E8FB9 /* currywareAppDelegate.m in Sources */,
+				AB3B70951958875B002086D4 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB5687BB197EAD8F00425750 /* Sources */ = {
+		ABBDE818194F4DF2004E8FB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB5687CD197EAD9000425750 /* GaidsickwareTests.m in Sources */,
+				ABBDE82A194F4DF2004E8FB9 /* GaidsickwareTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AB5687C5197EAD8F00425750 /* PBXTargetDependency */ = {
+		ABBDE822194F4DF2004E8FB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AB56879A197EAD8F00425750 /* Gaidsickware */;
-			targetProxy = AB5687C4197EAD8F00425750 /* PBXContainerItemProxy */;
+			target = ABBDE7F7194F4DF2004E8FB9 /* Gaidsickware */;
+			targetProxy = ABBDE821194F4DF2004E8FB9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AB5687A7197EAD8F00425750 /* InfoPlist.strings */ = {
+		ABBDE804194F4DF2004E8FB9 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AB5687A8197EAD8F00425750 /* en */,
+				ABBDE805194F4DF2004E8FB9 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		AB5687B0197EAD8F00425750 /* Main.storyboard */ = {
+		ABBDE80D194F4DF2004E8FB9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AB5687B1197EAD8F00425750 /* Base */,
+				ABBDE80E194F4DF2004E8FB9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AB5687C9197EAD8F00425750 /* InfoPlist.strings */ = {
+		ABBDE826194F4DF2004E8FB9 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AB5687CA197EAD8F00425750 /* en */,
+				ABBDE827194F4DF2004E8FB9 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -308,7 +381,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AB5687CE197EAD9000425750 /* Debug */ = {
+		ABBDE82B194F4DF2004E8FB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -347,7 +420,7 @@
 			};
 			name = Debug;
 		};
-		AB5687CF197EAD9000425750 /* Release */ = {
+		ABBDE82C194F4DF2004E8FB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,33 +453,51 @@
 			};
 			name = Release;
 		};
-		AB5687D1197EAD9000425750 /* Debug */ = {
+		ABBDE82E194F4DF2004E8FB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gaidsickware/Gaidsickware-Prefix.pch";
 				INFOPLIST_FILE = "Gaidsickware/Gaidsickware-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				"OTHER_LDFLAGS[sdk=iphoneos7.1]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		AB5687D2197EAD9000425750 /* Release */ = {
+		ABBDE82F194F4DF2004E8FB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gaidsickware/Gaidsickware-Prefix.pch";
 				INFOPLIST_FILE = "Gaidsickware/Gaidsickware-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		AB5687D4197EAD9000425750 /* Debug */ = {
+		ABBDE831194F4DF2004E8FB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gaidsickware.app/Gaidsickware";
@@ -428,7 +519,7 @@
 			};
 			name = Debug;
 		};
-		AB5687D5197EAD9000425750 /* Release */ = {
+		ABBDE832194F4DF2004E8FB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gaidsickware.app/Gaidsickware";
@@ -449,32 +540,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB568796197EAD8F00425750 /* Build configuration list for PBXProject "Gaidsickware" */ = {
+		ABBDE7F3194F4DF2004E8FB9 /* Build configuration list for PBXProject "Gaidsickware" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB5687CE197EAD9000425750 /* Debug */,
-				AB5687CF197EAD9000425750 /* Release */,
+				ABBDE82B194F4DF2004E8FB9 /* Debug */,
+				ABBDE82C194F4DF2004E8FB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB5687D0197EAD9000425750 /* Build configuration list for PBXNativeTarget "Gaidsickware" */ = {
+		ABBDE82D194F4DF2004E8FB9 /* Build configuration list for PBXNativeTarget "Gaidsickware" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB5687D1197EAD9000425750 /* Debug */,
-				AB5687D2197EAD9000425750 /* Release */,
+				ABBDE82E194F4DF2004E8FB9 /* Debug */,
+				ABBDE82F194F4DF2004E8FB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		AB5687D3197EAD9000425750 /* Build configuration list for PBXNativeTarget "GaidsickwareTests" */ = {
+		ABBDE830194F4DF2004E8FB9 /* Build configuration list for PBXNativeTarget "GaidsickwareTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB5687D4197EAD9000425750 /* Debug */,
-				AB5687D5197EAD9000425750 /* Release */,
+				ABBDE831194F4DF2004E8FB9 /* Debug */,
+				ABBDE832194F4DF2004E8FB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AB568793197EAD8F00425750 /* Project object */;
+	rootObject = ABBDE7F0194F4DF2004E8FB9 /* Project object */;
 }
