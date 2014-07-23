@@ -113,6 +113,18 @@
                                     <action selector="clickedUseBrandingProfile:" destination="9pv-A4-QxB" eventType="touchUpInside" id="stt-Ej-nqJ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1tm-CL-3mH">
+                                <rect key="frame" x="504" y="405" width="192" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Start Analytics">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickedDoAnalytics:" destination="9pv-A4-QxB" eventType="touchUpInside" id="krh-vi-7uw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.41676770895432402" green="0.66391820193392137" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>

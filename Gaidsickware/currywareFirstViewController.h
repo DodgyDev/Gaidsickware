@@ -12,9 +12,12 @@
 // AirWatch Code:
 // To access functionality you will need to import the appropriate header files.  Check the code notes to see what
 // call needs which header file.
+#import <AWSDK/AWLog.h>
+#import <AWSDK/AWAnalytics.h>
 #import <AWSDK/AWController.h>
-#import <AWSDK/AWEnrollmentAccount.h>
+#import <AWSDK/AWDataSampler.h>
 #import <AWSDK/AWCommandManager.h>
+#import <AWSDK/AWEnrollmentAccount.h>
 #import <AWSDK/AWDataSamplerConfiguration.h>
 
 @interface currywareFirstViewController : UIViewController
@@ -40,6 +43,7 @@
 -(IBAction)clickedHello:(UIButton *) sender;
 -(IBAction)clickedGetAWCredntials:(UIButton *)sender;
 -(IBAction)clickedUseBrandingProfile:(id)sender;
+-(IBAction)clickedDoAnalytics:(id)sender;
 
 // Setting up the properties for the Reachability class.  This is how to test to make sure you have a connection to
 // get out.

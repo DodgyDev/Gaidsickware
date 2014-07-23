@@ -78,12 +78,47 @@
 }
 
 // AirWatch Code:
-// This is an SDK specific function.  Analytics sends information about functions to the console.
-- (void)doAnalytics {
+// This is an SDK specific function.  Analytics sends information about functions to the console.  This required the
+// addition of the AWAnalytics and AWDataSample header files.
+-(IBAction)clickedDoAnalytics:(id)sender {
     
-    AWDataSamplerConfiguration *samplerConfig = [[AWDataSamplerConfiguration init] alloc];
-    samplerConfig.urlScheme = @"https://demo2.awmdm.com";
+    // Check to see if the console has be set up to do Analytics.
+    AWCommandManager *commandManager = [AWCommandManager sharedManager];
+    AWAnalyticsPayload *analyticsPayload = [[commandManager sdkProfile] analyticsPayload];
+    if (! analyticsPayload) {
+        NSLog(@"Analytics is not turned on.  Doing Nothing");
+        return;
+    }
     
+    NSTimeInterval sampleInterval = 10.0;
+    NSTimeInterval transmitInterval = 30.0;
+    
+    // The Data Sample is used for all of the reporting modules.  The initWitSampleModules is where you specify
+    // what type of data you are going to collect.  The documentation is not great around this, so you will probably
+    // need to look at the sample code to get the appropriate flags.  Because we are doing Analytics, the sampleInterval
+    // is not really used.  That would be for something more like GPS.
+    AWDataSamplerConfiguration *samplerConfig = [[AWDataSamplerConfiguration alloc] initWithSampleModules:(AWDataSamplerModuleAnalytics) defaultSampleInterval:sampleInterval defaultTransmitInterval:transmitInterval traceLevel:Info];
+    
+    NSError *error;
+    AWDataSampler *dataSampler = [AWDataSampler mDataSamplerModule];
+    [dataSampler setConfig:samplerConfig];
+    [dataSampler startUp:&error];
+    
+    if (error == nil) {
+        AWAnalytics *analytics = [AWAnalytics mAnalytics];
+        [analytics setEnabled:YES];
+    
+        [analytics recordEvent:AWAnalyticsCustomEvent eventName:@"SessionStarted" eventValue:@"AWSession Started Event" valueType:AWAnalyticsValueString];
+    
+        [analytics recordEvent:AWAnalyticsCustomEvent eventName:@"CustomEvent" eventValue:@"An Analytis String" valueType:AWAnalyticsValueString];
+    
+        [analytics recordEvent:AWAnalyticsCustomEvent eventName:@"CustomEventInteger" eventValue:@"10" valueType:AWAnalyticsValueInteger];
+        
+        NSLog(@"Analytics Events Sent");
+    }
+    else {
+        NSLog(@"Error Starting Data Sampler");
+    }
 }
 
 - (void)viewDidLoad
