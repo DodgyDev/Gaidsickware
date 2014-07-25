@@ -93,11 +93,20 @@
     NSTimeInterval sampleInterval = 10.0;
     NSTimeInterval transmitInterval = 30.0;
     
+    AWAnalytics *analytics = [AWAnalytics mAnalytics];
+    [analytics setEnabled:YES];
+    
+    [analytics recordEvent:AWAnalyticsCustomEvent eventName:@"SessionStarted" eventValue:@"AWSession Started Event" valueType:AWAnalyticsValueString];
+    
+    [analytics recordEvent:AWAnalyticsCustomEvent eventName:@"CustomEvent" eventValue:@"An Analytis String" valueType:AWAnalyticsValueString];
+    
+    [analytics recordEvent:AWAnalyticsCustomEvent eventName:@"CustomEventInteger" eventValue:@"10" valueType:AWAnalyticsValueInteger];
+    
     // The Data Sample is used for all of the reporting modules.  The initWitSampleModules is where you specify
     // what type of data you are going to collect.  The documentation is not great around this, so you will probably
     // need to look at the sample code to get the appropriate flags.  Because we are doing Analytics, the sampleInterval
     // is not really used.  That would be for something more like GPS.
-    AWDataSamplerConfiguration *samplerConfig = [[AWDataSamplerConfiguration alloc] initWithSampleModules:(AWDataSamplerModuleAnalytics) defaultSampleInterval:sampleInterval defaultTransmitInterval:transmitInterval traceLevel:Info];
+    AWDataSamplerConfiguration *samplerConfig = [[AWDataSamplerConfiguration alloc] initWithSampleModules:(AWDataSamplerModuleAnalytics) defaultSampleInterval:sampleInterval defaultTransmitInterval:transmitInterval traceLevel:AWTraceLevelInfo];
     
     NSError *error;
     AWDataSampler *dataSampler = [AWDataSampler mDataSamplerModule];
@@ -105,14 +114,6 @@
     [dataSampler startUp:&error];
     
     if (error == nil) {
-        AWAnalytics *analytics = [AWAnalytics mAnalytics];
-        [analytics setEnabled:YES];
-    
-        [analytics recordEvent:AWAnalyticsCustomEvent eventName:@"SessionStarted" eventValue:@"AWSession Started Event" valueType:AWAnalyticsValueString];
-    
-        [analytics recordEvent:AWAnalyticsCustomEvent eventName:@"CustomEvent" eventValue:@"An Analytis String" valueType:AWAnalyticsValueString];
-    
-        [analytics recordEvent:AWAnalyticsCustomEvent eventName:@"CustomEventInteger" eventValue:@"10" valueType:AWAnalyticsValueInteger];
         
         NSLog(@"Analytics Events Sent");
     }
